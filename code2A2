@@ -1,0 +1,5 @@
+import pandas as pd
+m=[int(input("enter")) for i in range(5)]
+p=pd.Series(m)
+k=p*p
+print(k)
