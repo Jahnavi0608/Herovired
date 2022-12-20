@@ -1,5 +1,21 @@
 import pandas as pd
-m=[int(input("enter")) for i in range(5)]
-p=pd.Series(m)
-k=p*p
-print(k)
+n=[int(input("enter")) for i in range(5)]
+p=pd.Series(n)
+m=p*p
+print(m)
+
+
+
+'''
+enter1
+enter2
+enter3
+enter5
+enter8
+0     1
+1     4
+2     9
+3    25
+4    64
+dtype: int64
+'''
